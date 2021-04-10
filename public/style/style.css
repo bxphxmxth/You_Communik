@@ -1,0 +1,23 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+
+/* nav */
+
+.nav{
+    display: flex;
+    background-color: black ;
+    height: 150px;
+    position: relative;
+}
+
+.logoComunik{
+    position: absolute;
+    border: red solid 3px;
+    top: 40px;
+    padding-left: 10px;
+
+}
+

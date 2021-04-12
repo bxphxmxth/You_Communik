@@ -1,8 +1,10 @@
 body{
-    margin-left: 200px;
-    margin-right: 200px; 
+    margin: auto;
+    /* margin-left: 200px;
+    margin-right: 200px;  */
     box-shadow: rgb(138, 128, 128) 10px 10px 30px 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 60%; 
 
     
 }
@@ -13,12 +15,25 @@ body{
 .nav{
     display: flex;
     background-color: black ;
-    height: 150px;
+    height: px;
     justify-content: space-between;
     
     
 
 }
+
+
+@media (min-width : 90px) and (max-width : 600px){
+
+/* .nav{
+
+    height: 50px;
+    width: 50px;
+
+} */
+
+}
+
 
 .logoComunik{
     margin-left: 10px;
@@ -29,7 +44,7 @@ body{
 
 }
 .logoComunik>img{
-    width: 100%;
+    width: 100px;
 }
 
 
